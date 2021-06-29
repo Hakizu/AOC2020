@@ -1,10 +1,11 @@
 "use strict"
-//https://adventofcode.com/2020/day/3
+//https://adventofcode.com/2020/day/5
 //load input
 const fs = require('fs')
 const encoded = fs.readFileSync("/Users/hakizu/Downloads/message.txt")
 const input = encoded.toString('utf-8').split('\n')
 
+//Part1
 const seatID = input.map(it => {
     const rowSegment = it.slice(0, -3)
     const columnSegment = it.slice(-3)

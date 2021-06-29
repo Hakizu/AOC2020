@@ -1,5 +1,5 @@
 "use strict"
-//https://adventofcode.com/2020/day/4
+//https://adventofcode.com/2020/day/6
 //load input
 const fs = require('fs')
 const encoded = fs.readFileSync("/Users/hakizu/Downloads/message.txt", 'utf-8')
