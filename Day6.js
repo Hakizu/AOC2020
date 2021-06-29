@@ -32,19 +32,19 @@ const secondAnswer = input.map(it => {
     }
 
     numberOfLines.filter((it, index) => {
-        const singleAnswer = it.split('')
+        const singleAnswerOfLine = it.split('')
 
-        return singleAnswer.filter(singleSet => {
+        return singleAnswerOfLine.filter(singleAnswer => {
 
             const answerPassed = numberOfLines.every((element, secondIndex) => {
                 if (index === secondIndex) {
                     return true
                 }
                 const answers = element.split('')
-                return answers.includes(singleSet)
+                return answers.includes(singleAnswer)
             })
             if (answerPassed) {
-                uniqueSet.add(singleSet)
+                uniqueSet.add(singleAnswer)
             }
             return answerPassed
 
