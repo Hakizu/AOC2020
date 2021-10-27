@@ -11,14 +11,12 @@ About Advent of Code
 for a variety of skill sets and skill levels that can be solved in any
 programming language you like. One programming puzzle a day is released from 1st
 to 25th December, divided in two parts (the second of which is unlocked after
-solving the first). Advent of Code is created by [Eric Wastl](aoc-eric), and is
+solving the first). Advent of Code is created by [Eric Wastl](http://was.tl/), and is
 100% free. If you like Advent Of Code and want to support its creator, you can
-donate to him [here](aoc-support). If you want to hang out with other fellow
+donate to him [here](https://adventofcode.com/2020/support). If you want to hang out with other fellow
 coders, discuss about puzzles and solutions, or just have a look around, you can
-join the official subreddit: [r/adventofcode](aoc-reddit), or the unofficial IRC
-channel: `#adventofcode` on `irc.libera.chat`, where you can also find me at the
-right time of the year.
-
+join the official subreddit: [r/adventofcode](https://www.reddit.com/r/adventofcode/), or the unofficial IRC
+channel: `#adventofcode` on `irc.libera.chat`.
 
 
 About this repo
